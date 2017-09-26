@@ -1,0 +1,178 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+  background-color: white;
+  color: black; /*apllies to EVERYTHING in body, unless over-ridden*/
+}
+
+div#header {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #990000;
+}
+
+div#header h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 2em;
+  margin-left: 2%;
+  padding: 0;
+}
+
+div#header img {
+  float: left;
+  margin: 0 .6em 0 .75em;
+}
+
+div#main {
+  width: 90%;
+  position: relative;
+  margin: 0 auto 0 auto; /*centers div, 5% either side*/
+}
+
+div#content {
+  width: 68%;
+  float: right;
+}
+
+div#sidebar {
+  width: 29%;
+  float: left;
+}
+
+.noWrap {
+  clear: both;
+}
+
+h1, h3, h5 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  letter-spacing: 1em; /* space between letters, can be negative */
+  word-spacing: 1em;
+  font-size: 2em;
+  text-align: center; /* left and right */
+}
+
+a {
+  color: #b8860b;
+}
+
+a:hover {
+  font-weight: bold;;
+  text-decoration: none; /*removes underline*/
+}
+
+a:active {
+  color: deeppink;
+}
+
+h3.bigger {
+  font-size: 2.5em;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-align: left;
+  text-align: justify;
+  text-indent: 1em;
+}
+
+p.nowrap {
+  clear: both;
+}
+
+.blockquote {
+  font-size:1.4em;
+  color: darkslategray;
+}
+
+p.important {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.typewriter {
+  text-indent: 5em;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 4em;
+}
+
+.emphasized {
+  font-style: italic;
+  color:  #cc0000;
+}
+
+p.offset {
+  margin: 5em; /* -top, -right, -bottom, -left */
+  border-top: 5px solid red; /* width, style (dotted, dashed, solid, double,
+    groove, ridge, inset, outset), color */
+    border-right: 2px double #666666;
+    border-bottom: 6px dashed darkviolet;
+    border-left: 1px dotted #00ee44;
+    padding: 1em 2em 3em 4em;
+}
+
+p#special {
+  color: green;
+}
+
+
+img.owns-its-own-line {
+  display: block;
+  float: left;
+}
+
+ul.circle {
+  list-style-type: circle
+}
+
+ol.second-level{
+  list-style-type: lower-roman;
+}
+
+th, td {
+  border: 1px solid black;
+  /*padding: 1em;*/
+  vertical-align: bottom; /*cells not table*/
+  color: red;
+  font-weight: 300;
+}
+
+table {
+  border-collapse: collapse;
+  /*border-spacing: 1em;*/
+  width: 50%;
+  text-align: center; /*table not cells*/
+}
+
+tr.backcolor {
+  background-color: lightgray;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+}
+
+input [type="text"], input[type="email"], textarea {
+  margin-bottom: .25em;
+  padding: .25em;
+  font-size: 1em;
+}
+
+input[type="submit"] {
+  font-size: 1.25em;
+}
+
+legend {
+  font-weight: 700;
+}
+
+.hidden {
+  display: none;
+}

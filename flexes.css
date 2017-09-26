@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+}
+
+#header {
+  background-color: green;
+  margin: 2em;
+  height: 10%;
+}
+
+
+.container {
+  display: flex;
+  text-align: center;
+  height: 100%;
+}
+
+
+.col1 {
+  flex-grow: 1;
+  border: 2px solid red;
+  background-color: pink;
+  margin: 2em;
+  height: 100%;
+}
+
+
+.col2 {
+  flex-grow: 3;
+  border: 2px solid orange;
+  background-color: yellow;
+  margin: 2em;
+  height: 80%;
+}
+
+
+#footer {
+  text-align: center;
+  background-color: red;
+  margin: 2em;
+  height: 10%;
+}

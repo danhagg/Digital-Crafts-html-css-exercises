@@ -1,0 +1,29 @@
+#header {
+  background-color: green;
+}
+
+.col1 {
+  float: left;
+  width: 300px;
+  height: 1000px;
+  border: 2px solid red;
+  background-color: pink;
+  margin: 2em;
+  text-align: center;
+}
+
+
+.col2 {
+  float: left;
+  height: 1000px;
+  width: 1000px;
+  border: 2px solid orange;
+  background-color: yellow;
+  margin: 2em;
+}
+
+
+#footer {
+  background-color: red;
+  clear: both;
+}

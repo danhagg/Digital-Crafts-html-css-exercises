@@ -1,0 +1,50 @@
+
+#flex-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.col1, .col3 {
+  background-color: black;
+  width: 20%;
+}
+
+.col2 {
+  background-color: white;
+  width: 60%;
+}
+
+.modal {
+  position: fixed;
+  background-color: white;
+  top: 35%;
+  left: 35%;
+  border: 2px solid gray;
+}
+
+.modal-header {
+  background-color: gray;
+  height: 2em;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 1.6em;
+  color: white;
+}
+
+.modal-content {
+background-color: white;
+font-weight: bold;
+padding: 1em;
+}
+
+.modal-buttons {
+  float: right;
+  padding: 1em;
+}
+
+.modal-buttons > button {
+  color: green;
+  font-weight: bold;
+}
